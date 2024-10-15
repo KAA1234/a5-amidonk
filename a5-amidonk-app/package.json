@@ -1,5 +1,16 @@
 {
   "dependencies": {
-    "node": "^20.18.0"
-  }
+    "node": "^20.18.0",
+    "nodemon": "^3.1.7"
+  },
+  "name": "a5-amidonk-app",
+  "version": "1.0.0",
+  "description": "assignment 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch ./index.js"
+  },
+  "author": "amidonk",
+  "license": "ISC"
 }
