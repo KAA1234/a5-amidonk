@@ -22,7 +22,7 @@
     <header>
         <h1>
             <image src="./android-chrome-192x192.png" alt="favicon KA" width="30px" height="30px"></image>
-            Kevin Amidon  
+            Kevin Amidon
         </h1>
     </header>
     <nav>
@@ -34,7 +34,26 @@
         <section>
             <h2>Contact</h2>
             <article>
+                <form action="/results" method="POST">
+                    <fieldset>
+                        <legend>Provide information about yourself</legend>
 
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required></input>
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" required></input>
+
+                        <label for="about">Tell us about you?</label>
+                        <textarea rows="4" id="about" name="about" required></textarea>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Feedback welcome</legend>
+                    </fieldset>
+
+                </form>
             </article>
         </section>
     </main>
