@@ -39,13 +39,13 @@
                         <legend>Provide information about yourself</legend>
 
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required></input>
+                        <input type="text" id="name" name="name" required autofocus placeholder="John Smith"></input>
 
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email" required></input>
+                        <input type="text" id="email" name="email" required placeholder="john.smith@gmail.com"></input>
 
                         <label for="about">Tell us about you?</label>
-                        <textarea rows="4" id="about" name="about" required></textarea>
+                        <textarea rows="4" id="about" name="about" required placeholder="I am a software developer interested in web development..."></textarea>
 
                     </fieldset>
 
@@ -54,10 +54,10 @@
 
                         <label for="reasonForVisit">What is your reason for visiting the site?</label>
                         <select name="reasonForVisit">
-                            <option value="webDevInterest">I am interested in learning web development</option>
-                            <option value="webDevInterest">I am interested in learning about Kevin</option>
-                            <option value="webDevInterest">I am interested in the pictures</option>
-                            <option value="webDevInterest">No reason, just scrolling</option>
+                            <option value="web development">I am interested in learning web development</option>
+                            <option value="kevin">I am interested in learning about Kevin</option>
+                            <option value="pictures">I am interested in the pictures</option>
+                            <option value="no reason">No reason, just scrolling</option>
                         </select>
                         <p>Do you like the site?</p>
                         <label for="likeYes">
@@ -67,7 +67,7 @@
                             <input type="radio" id="likeNo" name="likeOption" value="no">No
                         </label>
                         <label for="likeALittle">
-                            <input type="radio" id="likeALittle" name="likeOption" value="ALittle">A little bit, it
+                            <input type="radio" id="likeALittle" name="likeOption" value="a little">A little bit, it
                             needs some work.
                         </label>
 
